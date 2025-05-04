@@ -89,3 +89,56 @@ Understanding and extracting design properties from a Figma mockup is critical f
 
 Properly identifying these visual specifications helps maintain a high-quality and professional user interface throughout the project.
 
+## Project Roles and Responsibilities
+
+Clear roles and responsibilities ensure effective collaboration and smooth progress throughout the project. Below are the defined team roles:
+
+### 👨‍💼 Project Manager
+- Oversees the overall progress and timeline of the project.
+- Coordinates tasks and communication across the team.
+- Ensures that deliverables meet quality and deadline expectations.
+- Manages risk, dependencies, and resource allocation.
+
+### 🖥️ Frontend Developers
+- Implement the user interface based on Figma designs.
+- Build reusable components using React or another frontend framework.
+- Ensure the application is responsive and accessible.
+- Connect frontend components with backend APIs.
+
+### 🗄️ Backend Developers
+- Design and develop RESTful APIs.
+- Manage server-side logic and integrate with databases.
+- Ensure security, data validation, and performance optimization.
+- Implement authentication, authorization, and booking logic.
+
+### 🎨 Designers
+- Create UI/UX mockups and prototypes in Figma.
+- Define design systems, color schemes, and typography.
+- Ensure visual consistency and usability across the platform.
+- Conduct usability tests and incorporate feedback.
+
+### 🧪 QA/Testers
+- Write and maintain unit and integration tests.
+- Perform manual and automated testing of the application.
+- Identify bugs and inconsistencies in design/functionality.
+- Collaborate with developers to resolve issues quickly.
+
+### 🚀 DevOps Engineers
+- Set up and manage CI/CD pipelines.
+- Handle deployment to staging and production environments.
+- Monitor application performance and uptime.
+- Manage cloud infrastructure and environment variables.
+
+### 📋 Product Owner
+- Defines the product vision and key features.
+- Prioritizes the product backlog and user stories.
+- Represents stakeholders and ensures the product meets business goals.
+- Works closely with the team to clarify requirements.
+
+### 🧭 Scrum Master
+- Facilitates agile ceremonies (stand-ups, sprint planning, retrospectives).
+- Helps remove blockers and improve team productivity.
+- Ensures the team adheres to Agile best practices.
+- Encourages collaboration and continuous improvement.
+
+
