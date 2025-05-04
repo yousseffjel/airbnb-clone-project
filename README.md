@@ -57,3 +57,35 @@ A user-friendly design is essential for any booking system. It directly impacts:
 - **Responsiveness**: Ensures the platform works perfectly across mobile, tablet, and desktop devices.
 - **Retention**: A pleasant user experience encourages return visits and brand loyalty.
 
+### 🎨 Color Styles
+
+- **Primary Color**: `#FF5A5F`
+- **Secondary Color**: `#008489`
+- **Background Color**: `#FFFFFF`
+- **Text Color**: `#222222`
+- **Secondary Text Color**: `#717171`
+
+### 🖋️ Typography
+
+- **Primary Font Family**: Circular
+- **Font Weights**:
+  - Book: 400
+  - Medium: 500
+  - Bold: 700
+- **Font Sizes**:
+  - **Body Text**: 16px
+  - **Secondary Text**: 14px
+  - **Headings**: 24px – 32px
+
+### 🧠 Importance of Identifying Design Properties from a Mockup
+
+Understanding and extracting design properties from a Figma mockup is critical for:
+
+- **Design Consistency**: Ensures that colors, fonts, and spacing are uniform across all pages.
+- **Efficient Development**: Developers can directly translate the design into code without ambiguity.
+- **Collaboration**: Designers and developers speak a common visual language, reducing miscommunication.
+- **User Experience**: A polished, consistent UI builds user trust and makes interactions smoother.
+- **Scalability**: A defined design system simplifies the process of adding new features or pages later.
+
+Properly identifying these visual specifications helps maintain a high-quality and professional user interface throughout the project.
+
