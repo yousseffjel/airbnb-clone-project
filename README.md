@@ -141,4 +141,34 @@ Clear roles and responsibilities ensure effective collaboration and smooth progr
 - Ensures the team adheres to Agile best practices.
 - Encourages collaboration and continuous improvement.
 
+## UI Component Patterns
+
+As part of building a reusable and consistent user interface, we will be creating several key components that can be used across different pages of the application. Below are the planned components for the AirBnB Clone project:
+
+### 🔑 Navbar
+- **Purpose**: Provides navigation between pages and key sections of the application.
+- **Features**:
+  - **Logo**: Displays the brand or application logo.
+  - **Search Bar**: Allows users to search for properties.
+  - **User Navigation**: Includes links for login, signup, and user account.
+  - **Responsive Menu**: Collapses into a hamburger menu on smaller screens.
+  
+### 🏠 Property Card
+- **Purpose**: Displays a summary of a property, allowing users to browse available listings.
+- **Features**:
+  - **Property Image**: Shows an image or a carousel of images of the property.
+  - **Basic Details**: Includes price, location, and average rating.
+  - **Favorite Button**: Lets users save properties to their favorites list.
+  - **Responsive Layout**: Ensures proper display on mobile, tablet, and desktop devices.
+
+### 📍 Footer
+- **Purpose**: Provides site links, company information, and social media links.
+- **Features**:
+  - **Site Links**: Links to important pages such as "About Us", "Contact", and "Help".
+  - **Company Information**: Includes brief info about the company.
+  - **Social Media Links**: Icons for Facebook, Twitter, Instagram, etc.
+  - **Copyright Information**: Displays the copyright year and company name.
+
+### 📐 Component Reusability
+All components are designed to be modular and reusable across different parts of the application. Each component will follow a consistent design pattern and be fully customizable for future changes or additional features.
 
