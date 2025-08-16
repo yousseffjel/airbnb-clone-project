@@ -279,3 +279,4 @@ This section outlines the key reusable components that will be developed for con
 - **Usage**: Search results page, property detail pages
 
 ###Database Design
+###Feature Breakdown
