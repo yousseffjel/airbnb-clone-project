@@ -1,174 +1,279 @@
 # Airbnb Clone Project
 
 ## Overview
-
-This is a full-stack clone of the Airbnb platform. The project aims to recreate the core features of Airbnb, including browsing property listings, viewing detailed property information, and booking accommodations.
+This project is a simplified clone of the Airbnb platform, designed to replicate core functionalities such as property listings, user authentication, and booking management. The goal is to provide a hands-on learning experience in building a full-stack web application while focusing on clean code, scalability, and responsive design.
 
 ## Project Goals
+- Recreate key features of Airbnb's user interface and functionality.
+- Implement a responsive and user-friendly front-end design.
+- Integrate back-end services for data management and user authentication.
+- Gain experience with modern web development tools and frameworks.
 
-- Build a responsive and user-friendly interface
-- Implement a robust backend with APIs and database integration
-- Practice modern frontend and backend development workflows
-- Collaborate effectively using Git and GitHub
-- Deploy a full-stack web application
+## Technology Stack
 
-## Tech Stack
+This project employs a modern JavaScript-based technology stack designed for scalability, performance, and developer productivity.
 
-- **Frontend**: HTML, CSS, JavaScript (React)
-- **Backend**: Node.js, Express (planned)
-- **Database**: MongoDB or PostgreSQL (planned)
-- **Design**: Figma
-- **Version Control**: Git & GitHub
+### Core Technologies:
+- **React.js**: JavaScript library for building interactive user interfaces
+- **Node.js**: JavaScript runtime for server-side execution
+- **Express.js**: Web application framework for building RESTful APIs
+- **MongoDB**: NoSQL database for flexible data storage and retrieval
 
+### Frontend Technologies:
+- **Redux/Context API**: State management libraries for maintaining application state
+- **Tailwind CSS**: Utility-first CSS framework for responsive design
+- **Axios**: Promise-based HTTP client for API requests
+- **React Router**: Library for handling navigation and routing in React applications
+- **Vite**: Modern frontend build tool offering fast development experience
+
+### Backend Technologies:
+- **Mongoose**: Object Data Modeling library for MongoDB and Node.js
+- **JWT**: JSON Web Tokens for secure authentication mechanisms
+- **Bcrypt**: Password hashing library for secure user authentication
+- **Socket.io**: Library for real-time bidirectional communication
+- **Cloudinary/AWS S3**: Cloud storage solutions for media assets
+
+### Development & Testing:
+- **Jest**: JavaScript testing framework for unit and integration testing
+- **Swagger/OpenAPI**: Tools for API documentation and specification
+
+For detailed information about implementation specifics, see the Front-End and Backend Tech Stack sections below.
+
+## Front-End Tech Stack
+- **React.js**: For building reusable UI components and managing the application state.
+- **Redux (or Context API)**: For state management across the application.
+- **Tailwind CSS**: For styling and responsive design.
+- **Axios**: For handling API requests.
+- **React Router**: For client-side routing and navigation.
+- **Vite**: For fast development and optimized builds.
+
+## Backend Tech Stack
+- **Node.js**: Server-side JavaScript runtime environment.
+- **Express.js**: Web application framework for building RESTful APIs.
+- **MongoDB**: NoSQL database for storing property listings, user data, and bookings.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **JWT**: JSON Web Tokens for secure authentication and authorization.
+- **Bcrypt**: For password hashing and security.
+- **Cloudinary/AWS S3**: Cloud storage for property images and user uploads.
+- **Socket.io**: For real-time messaging between hosts and guests.
+- **Jest**: For backend testing and API endpoint validation.
+- **Swagger/OpenAPI**: For API documentation and testing.
 
 ## UI/UX Design Planning
 
-### 🎯 Design Goals
+### Design Goals
+- Create an intuitive and visually appealing interface that mimics Airbnb's clean aesthetic
+- Ensure responsive design that works seamlessly across desktop, tablet, and mobile devices
+- Optimize user flows to minimize friction in the booking process
+- Implement accessibility best practices for inclusive user experience
+- Maintain consistent design language throughout the application
 
-- Create an intuitive and seamless booking experience.
-- Maintain consistent branding and visual design across all views.
-- Optimize for performance and fast loading times.
-- Ensure full responsiveness across all screen sizes (mobile-first approach).
-- Prioritize accessibility for all users.
+### Key Features to Implement
+- Search functionality with filters (location, dates, guests, price range)
+- Interactive map integration
+- User authentication and profile management
+- Wishlist/favorites system
+- Rating and review components
+- Booking calendar with availability visualization
 
-### 🔑 Key Features to Implement
+### Primary Pages
 
-- **Property Search and Filtering**  
-- **Detailed Property View with Images and Descriptions**  
-- **Secure Booking and Checkout Process**  
-- **User Authentication and Account Management**  
-- **Favorites (Wishlisting) and Saved Listings**  
+| Page | Description | Key Components |
+|------|-------------|----------------|
+| **Property Listing View** | The main discovery page displaying available properties | - Search bar with filters<br>- Property cards with images, pricing, and basic info<br>- Pagination or infinite scroll<br>- Map integration (optional)<br>- Quick filter chips |
+| **Listing Detailed View** | Comprehensive view of a single property | - Image gallery/carousel<br>- Detailed property description<br>- Amenities list<br>- Host information<br>- Availability calendar<br>- Reviews section<br>- Booking widget |
+| **Simple Checkout View** | Streamlined booking confirmation process | - Reservation summary<br>- Price breakdown<br>- Guest information form<br>- Payment method selection<br>- Booking policies<br>- Confirmation mechanism |
 
-### 📄 Primary Pages
+### Importance of User-Friendly Design in Booking Systems
 
-| Page Name               | Description                                                                                  |
-|-------------------------|----------------------------------------------------------------------------------------------|
-| **Property Listing View** | Displays a grid of available properties. Includes filters for location, price, and dates.    |
-| **Listing Detailed View** | Shows full property details: images, description, pricing, reviews, and a booking form.     |
-| **Simple Checkout View**  | Streamlined interface for entering payment details and confirming the booking.              |
+A user-friendly design is critical in booking systems as it directly impacts conversion rates and user satisfaction. Users making accommodation decisions are often comparing multiple options and may be unfamiliar with the locations they're exploring. An intuitive interface reduces cognitive load during the decision-making process, while clear information hierarchy helps users quickly find the details most relevant to their needs. Transparency in pricing, availability, and policies builds trust, while responsive design ensures a consistent experience regardless of device. By minimizing friction points in the booking journey, we can significantly improve completion rates and enhance the overall user experience, encouraging repeat visits and positive word-of-mouth.
 
-### 💡 Importance of User-Friendly Design
+## Team Roles
 
-A user-friendly design is essential for any booking system. It directly impacts:
+### Project Manager
+- **Description**: Oversees the entire project lifecycle, ensuring timely delivery and quality standards.
+- **Key Responsibilities**:
+  - Creating and maintaining project plans and timelines
+  - Conducting regular team meetings and status updates
+  - Managing resources and budgets
+  - Identifying and mitigating project risks
+  - Facilitating communication between stakeholders
+- **Contribution**: Ensures the project stays on track, resolves blockers, and maintains alignment with business objectives.
 
-- **Conversion rates**: A smooth booking flow encourages more users to complete transactions.
-- **User trust and satisfaction**: Clear design and communication increase confidence.
-- **Accessibility**: Inclusive design ensures usability for all users, regardless of ability.
-- **Responsiveness**: Ensures the platform works perfectly across mobile, tablet, and desktop devices.
-- **Retention**: A pleasant user experience encourages return visits and brand loyalty.
+### Frontend Developers
+- **Description**: Responsible for implementing the user-facing components of the Airbnb clone.
+- **Key Responsibilities**:
+  - Building responsive UI components using React.js and Tailwind CSS
+  - Implementing client-side functionality and state management
+  - Consuming REST APIs and handling data presentation
+  - Ensuring cross-browser compatibility and responsive design
+  - Writing clean, maintainable code with proper documentation
+- **Contribution**: Creates the interactive user experience that drives engagement and enables core booking functionalities.
 
-### 🎨 Color Styles
+### Backend Developers
+- **Description**: Builds and maintains server-side architecture and data management systems.
+- **Key Responsibilities**:
+  - Designing and implementing RESTful APIs
+  - Developing database schemas and data models
+  - Creating authentication and authorization systems
+  - Implementing business logic and application rules
+  - Optimizing for performance and scalability
+- **Contribution**: Provides the foundational data infrastructure that powers the application's features.
 
-- **Primary Color**: `#FF5A5F`
-- **Secondary Color**: `#008489`
-- **Background Color**: `#FFFFFF`
-- **Text Color**: `#222222`
-- **Secondary Text Color**: `#717171`
+### Designers
+- **Description**: Creates the visual and interactive elements of the user interface.
+- **Key Responsibilities**:
+  - Developing UI/UX design concepts and wireframes
+  - Creating visual design systems and component libraries
+  - Designing responsive layouts for various devices
+  - User research and usability testing
+  - Creating prototypes for developer handoff
+- **Contribution**: Ensures the application is intuitive, accessible, and delivers a delightful user experience.
 
-### 🖋️ Typography
+### QA/Testers
+- **Description**: Ensures software quality through comprehensive testing.
+- **Key Responsibilities**:
+  - Creating and executing test plans and test cases
+  - Performing functional, regression, and UI testing
+  - Identifying and documenting bugs and issues
+  - Verifying bug fixes and feature implementations
+  - Automated testing implementation
+- **Contribution**: Helps maintain high quality standards and ensures a smooth, error-free user experience.
 
-- **Primary Font Family**: Circular
-- **Font Weights**:
-  - Book: 400
-  - Medium: 500
-  - Bold: 700
-- **Font Sizes**:
-  - **Body Text**: 16px
-  - **Secondary Text**: 14px
-  - **Headings**: 24px – 32px
+### DevOps Engineers
+- **Description**: Manages deployment infrastructure and continuous integration pipelines.
+- **Key Responsibilities**:
+  - Setting up and maintaining CI/CD pipelines
+  - Managing cloud infrastructure and deployment environments
+  - Implementing monitoring and logging solutions
+  - Ensuring system security and performance
+  - Automating repetitive operational tasks
+- **Contribution**: Enables rapid, reliable deployment of new features and maintains system stability.
 
-### 🧠 Importance of Identifying Design Properties from a Mockup
+### Product Owner
+- **Description**: Represents stakeholder interests and defines product requirements.
+- **Key Responsibilities**:
+  - Developing and maintaining the product backlog
+  - Prioritizing features based on business value
+  - Creating user stories and acceptance criteria
+  - Making product decisions and scope adjustments
+  - Gathering and incorporating user feedback
+- **Contribution**: Ensures the application meets user needs and business objectives.
 
-Understanding and extracting design properties from a Figma mockup is critical for:
-
-- **Design Consistency**: Ensures that colors, fonts, and spacing are uniform across all pages.
-- **Efficient Development**: Developers can directly translate the design into code without ambiguity.
-- **Collaboration**: Designers and developers speak a common visual language, reducing miscommunication.
-- **User Experience**: A polished, consistent UI builds user trust and makes interactions smoother.
-- **Scalability**: A defined design system simplifies the process of adding new features or pages later.
-
-Properly identifying these visual specifications helps maintain a high-quality and professional user interface throughout the project.
-
-## Project Roles and Responsibilities
-
-Clear roles and responsibilities ensure effective collaboration and smooth progress throughout the project. Below are the defined team roles:
-
-### 👨‍💼 Project Manager
-- Oversees the overall progress and timeline of the project.
-- Coordinates tasks and communication across the team.
-- Ensures that deliverables meet quality and deadline expectations.
-- Manages risk, dependencies, and resource allocation.
-
-### 🖥️ Frontend Developers
-- Implement the user interface based on Figma designs.
-- Build reusable components using React or another frontend framework.
-- Ensure the application is responsive and accessible.
-- Connect frontend components with backend APIs.
-
-### 🗄️ Backend Developers
-- Design and develop RESTful APIs.
-- Manage server-side logic and integrate with databases.
-- Ensure security, data validation, and performance optimization.
-- Implement authentication, authorization, and booking logic.
-
-### 🎨 Designers
-- Create UI/UX mockups and prototypes in Figma.
-- Define design systems, color schemes, and typography.
-- Ensure visual consistency and usability across the platform.
-- Conduct usability tests and incorporate feedback.
-
-### 🧪 QA/Testers
-- Write and maintain unit and integration tests.
-- Perform manual and automated testing of the application.
-- Identify bugs and inconsistencies in design/functionality.
-- Collaborate with developers to resolve issues quickly.
-
-### 🚀 DevOps Engineers
-- Set up and manage CI/CD pipelines.
-- Handle deployment to staging and production environments.
-- Monitor application performance and uptime.
-- Manage cloud infrastructure and environment variables.
-
-### 📋 Product Owner
-- Defines the product vision and key features.
-- Prioritizes the product backlog and user stories.
-- Represents stakeholders and ensures the product meets business goals.
-- Works closely with the team to clarify requirements.
-
-### 🧭 Scrum Master
-- Facilitates agile ceremonies (stand-ups, sprint planning, retrospectives).
-- Helps remove blockers and improve team productivity.
-- Ensures the team adheres to Agile best practices.
-- Encourages collaboration and continuous improvement.
+### Scrum Master
+- **Description**: Facilitates agile processes and removes team impediments.
+- **Key Responsibilities**:
+  - Organizing and facilitating scrum ceremonies
+  - Removing obstacles that block team progress
+  - Coaching the team on agile practices
+  - Protecting the team from external distractions
+  - Promoting continuous improvement
+- **Contribution**: Enhances team productivity and ensures efficient adherence to agile methodologies.
 
 ## UI Component Patterns
 
-As part of building a reusable and consistent user interface, we will be creating several key components that can be used across different pages of the application. Below are the planned components for the AirBnB Clone project:
+This section outlines the key reusable components that will be developed for consistent user experience across the application. Following a component-based architecture allows for better maintainability, consistent styling, and efficient development.
 
-### 🔑 Navbar
-- **Purpose**: Provides navigation between pages and key sections of the application.
+### Navigation Components
+
+#### Navbar
+- **Description**: The primary navigation header appearing on all pages
 - **Features**:
-  - **Logo**: Displays the brand or application logo.
-  - **Search Bar**: Allows users to search for properties.
-  - **User Navigation**: Includes links for login, signup, and user account.
-  - **Responsive Menu**: Collapses into a hamburger menu on smaller screens.
-  
-### 🏠 Property Card
-- **Purpose**: Displays a summary of a property, allowing users to browse available listings.
+  - Logo and brand identity
+  - Responsive design with mobile hamburger menu
+  - Search bar integration (collapsible on mobile)
+  - User authentication controls (login/signup/profile)
+  - Navigation links to key sections
+  - Notification indicators
+- **Usage**: Site-wide, with contextual variations
+
+#### Footer
+- **Description**: Consistent footer with site information and links
 - **Features**:
-  - **Property Image**: Shows an image or a carousel of images of the property.
-  - **Basic Details**: Includes price, location, and average rating.
-  - **Favorite Button**: Lets users save properties to their favorites list.
-  - **Responsive Layout**: Ensures proper display on mobile, tablet, and desktop devices.
+  - Copyright and legal information
+  - Navigation links to secondary pages
+  - Social media links
+  - Language selection
+  - Currency selection
+  - Newsletter signup
+- **Usage**: Site-wide
 
-### 📍 Footer
-- **Purpose**: Provides site links, company information, and social media links.
+### Content Components
+
+#### Property Card
+- **Description**: Standardized display of property listings in grid/list views
 - **Features**:
-  - **Site Links**: Links to important pages such as "About Us", "Contact", and "Help".
-  - **Company Information**: Includes brief info about the company.
-  - **Social Media Links**: Icons for Facebook, Twitter, Instagram, etc.
-  - **Copyright Information**: Displays the copyright year and company name.
+  - Featured image with carousel capability
+  - Property title and location
+  - Price display with optional discount indicators
+  - Rating visualization
+  - Key property attributes (beds, baths, etc.)
+  - Wishlist/save functionality
+  - Host information preview
+- **Usage**: Listing pages, search results, recommendations
 
-### 📐 Component Reusability
-All components are designed to be modular and reusable across different parts of the application. Each component will follow a consistent design pattern and be fully customizable for future changes or additional features.
+#### Search Filters
+- **Description**: Modular filter components for refining property searches
+- **Features**:
+  - Date range picker
+  - Guest counter (adults/children/infants)
+  - Price range slider
+  - Property type filters
+  - Amenities checklist
+  - Instant booking toggle
+  - Clear filters option
+- **Usage**: Search page, filter modals
 
+#### Review Component
+- **Description**: Standardized display for user reviews
+- **Features**:
+  - User avatar and name
+  - Date of stay/review
+  - Rating visualization
+  - Review text with truncation for longer reviews
+  - Helpful/report options
+  - Host response (if applicable)
+- **Usage**: Property detail pages, host profiles
+
+### Interactive Components
+
+#### Image Gallery
+- **Description**: Flexible image display system for property listings
+- **Features**:
+  - Thumbnail grid with featured image
+  - Fullscreen carousel mode
+  - Lazy loading for performance
+  - Image zoom capabilities
+  - Navigation controls
+- **Usage**: Property detail pages
+
+#### Booking Calendar
+- **Description**: Interactive calendar for selecting booking dates
+- **Features**:
+  - Date range selection
+  - Unavailable date blocking
+  - Minimum/maximum stay indicators
+  - Price variations by date
+  - Mobile-friendly interface
+- **Usage**: Property detail pages, search filters
+
+#### Modal Components
+- **Description**: Reusable modal patterns for various interactions
+- **Features**:
+  - Login/signup forms
+  - Confirmation dialogs
+  - Image viewers
+  - Filter expansion
+  - Mobile-optimized versions
+- **Usage**: Throughout application as needed
+
+#### Map Component
+- **Description**: Interactive map display for property locations
+- **Features**:
+  - Property pin clustering
+  - Info windows for properties
+  - Price labels on map
+  - Custom styling to match brand
+  - Zoom and pan controls
+  - Current location option
+- **Usage**: Search results page, property detail pages
